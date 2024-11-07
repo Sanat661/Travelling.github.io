@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World Tours</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling to make it visually appealing */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            background-image: url('images/header-bg.png');
+            background-size: cover;
+        }
+        header {
+            background: #042e45;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .tour-card {
+            background-color: rgb(105, 119, 128);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 5px 0;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .testimonials, .gallery {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+        }
+        .testimonial-card {
+            background: #042e45;
+            padding: 15px;
+            border-radius: 8px;
+            min-width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1><i>Explore the World Tours!</i></h1>
+        <p>Discover breathtaking destinations with us</p>
+    </header>
+
+    <!-- Tour Overview Section -->
+    <section id="overview">
+        <h2>About Our Tours</h2>
+        <p>We offer guided tours to some of the most beautiful destinations around the world. Whether you're looking for adventure, relaxation, or cultural immersion, we have something for everyone!</p>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours">
+        <h2>Available Tours</h2>
+        <div class="tour-card">
+            <h3>Paris City Tour</h3>
+            <p>Explore the charm of Paris with our guided city tour. From the Eiffel Tower to the Louvre, see all the iconic spots.</p>
+            <p><strong>Duration:</strong> 3 days</p>
+            <p><strong>Price:</strong> $500</p>
+        </div>
+        <div class="tour-card">
+            <h3>Safari Adventure in Kenya</h3>
+            <p>Experience the wild beauty of Kenya on this safari tour. Get up close with Africa's Big Five animals.</p>
+            <p><strong>Duration:</strong> 7 days</p>
+            <p><strong>Price:</strong> $1500</p>
+        </div>
+        <!-- Add more tour cards as needed -->
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="images/Eiffel-Tower-Wallpaper.jpg" alt="Paris">
+            <img src="images/2113759.jpg" alt="Safari">
+            <img src="images/Bingin-Beach-Uluwatu-Bali-Indonesia.jpg" alt="Beach">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <p>"The Paris tour was absolutely amazing! Our guide was knowledgeable and friendly."</p>
+                <p><strong>- Sarah J.</strong></p>
+            </div>
+            <div class="testimonial-card">
+                <p>"A once-in-a-lifetime experience on the Kenya safari! Highly recommend."</p>
+                <p><strong>- Mark T.</strong></p>
+            </div>
+            <!-- Add more testimonial cards as needed -->
+        </div>
+    </section>
+</body>
+</html>
